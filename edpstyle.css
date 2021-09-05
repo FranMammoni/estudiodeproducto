@@ -1,0 +1,89 @@
+#navbar {
+    background-color: rgb(9, 51, 1);
+    list-style-type: none;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbaritem {
+   display: inline-block;
+   padding: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.navbaritem:hover {
+    background-color: rgba(1, 128, 1);
+}
+
+#pheader {
+    margin-top: 0px;
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 40px 10px 40px;
+    background-color: rgba(9, 80, 0, 0.7); 
+
+}
+
+#h1header {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.intgrup {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-size: contain;
+    margin: 0px;
+}
+
+#documento {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer {
+    background-color: rgba(9, 80, 0, 0.7); 
+    padding: 10px;
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(9, 51, 1);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(1, 128, 1);
+    border-radius: 50px;
+}
